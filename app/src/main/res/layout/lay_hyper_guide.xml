@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffffff"
+              android:orientation="vertical">
+
+    <com.cysion.machinear.view.TopLayout
+        android:id="@+id/topbar_guide_hyper"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"></com.cysion.machinear.view.TopLayout>
+    <View
+        android:background="@color/div_dark_x"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="图文说明页面"
+        android:textColor="@color/txt_dark_xxx"
+        android:textSize="30sp"/>
+
+</LinearLayout>

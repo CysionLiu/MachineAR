@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.cysion.machinear"
+        minSdkVersion 18
+        targetSdkVersion 22
+    }
+    signingConfigs {
+        keystore {
+            storeFile file('./key/machinear.keystore')
+            storePassword 'mart123'
+            keyAlias 'machinear'
+            keyPassword 'mart123'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.keystore
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/EasyAR.jar')
+    compile files('libs/unity-classes.jar')
+    compile 'org.jetbrains:annotations-java5:15.0'
+}

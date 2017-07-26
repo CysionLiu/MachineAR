@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="52dp"
+              android:layout_gravity="bottom"
+              android:background="@color/bg_white"
+              android:orientation="horizontal">
+
+    <com.cysion.machinear.view.MaskImageView
+        android:id="@+id/img_first_bottom"
+        style="@style/img_bottom_title"
+        android:src="@drawable/qxs"
+        android:text="图文说明"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/div_dark_x"
+        ></View>
+
+    <com.cysion.machinear.view.MaskImageView
+        android:id="@+id/img_second_bottom"
+        android:src="@drawable/yps"
+        style="@style/img_bottom_title"
+        android:text="语音介绍"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/div_dark_x"
+        ></View>
+
+    <com.cysion.machinear.view.MaskImageView
+        android:id="@+id/img_third_bottom"
+        style="@style/img_bottom_title"
+        android:src="@drawable/sxs"
+        android:text="数学知识"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/div_dark_x"
+        ></View>
+
+    <com.cysion.machinear.view.MaskImageView
+        android:id="@+id/img_fourth_bottom"
+        style="@style/img_bottom_title"
+        android:src="@drawable/sps"
+        android:text="视频介绍"/>
+</LinearLayout>

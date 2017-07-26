@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_white">#ddffffff</color>
+    <color name="bg_white_x">#33ffffff</color>
+    <color name="txt_dark_xxx">#ff000000</color>
+    <color name="txt_dark_x">#33000000</color>
+    <color name="txt_green_xxx">#ff00ff00</color>
+    <color name="div_dark_x">#33000000</color>
+</resources>

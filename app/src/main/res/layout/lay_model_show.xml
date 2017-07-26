@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000">
+
+    <com.cysion.machinear.view.TopLayout
+        android:id="@+id/topbar_model_showpage"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"></com.cysion.machinear.view.TopLayout>
+
+    <RelativeLayout
+        android:id="@+id/tips_bottom_show"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        >
+        <TextView
+            android:id="@+id/txt_tips_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="请对准识别图扫描"
+            android:textColor="@color/txt_green_xxx"
+            android:textSize="16sp"/>
+
+        <ProgressBar
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="6dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/txt_tips_scan"
+            />
+    </RelativeLayout>
+
+    <com.cysion.machinear.view.ImgBottomBar
+        android:id="@+id/bottombar_model_showpage"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"></com.cysion.machinear.view.ImgBottomBar>
+</RelativeLayout>
