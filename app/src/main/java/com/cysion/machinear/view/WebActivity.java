@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.webkit.WebView;
@@ -49,7 +50,11 @@ public class WebActivity extends Activity {
             @Override
             public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
-                mTopLayout.setTitle(view.getTitle());
+                String title = view.getTitle();
+                Log.d("flag--","onPageFinished(WebActivity.java:53)---->>"+title);
+                if (title != null&&!title.endsWith(".html")) {
+                    mTopLayout.setTitle(title);
+                }
             }
 
             @Override
