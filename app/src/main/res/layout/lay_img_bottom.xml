@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
-              android:layout_height="52dp"
+              android:layout_height="60dp"
               android:layout_gravity="bottom"
               android:background="@color/bg_white"
               android:orientation="horizontal">
@@ -9,7 +9,7 @@
     <com.cysion.machinear.view.MaskImageView
         android:id="@+id/img_first_bottom"
         style="@style/img_bottom_title"
-        android:src="@drawable/qxs"
+        android:src="@drawable/img_bar_qixiu"
         android:text="图文说明"/>
 
     <View
@@ -22,7 +22,7 @@
 
     <com.cysion.machinear.view.MaskImageView
         android:id="@+id/img_second_bottom"
-        android:src="@drawable/yps"
+        android:src="@drawable/img_bar_music"
         style="@style/img_bottom_title"
         android:text="语音介绍"/>
 
@@ -37,7 +37,7 @@
     <com.cysion.machinear.view.MaskImageView
         android:id="@+id/img_third_bottom"
         style="@style/img_bottom_title"
-        android:src="@drawable/sxs"
+        android:src="@drawable/img_bar_math"
         android:text="数学知识"/>
 
     <View
@@ -51,6 +51,6 @@
     <com.cysion.machinear.view.MaskImageView
         android:id="@+id/img_fourth_bottom"
         style="@style/img_bottom_title"
-        android:src="@drawable/sps"
+        android:src="@drawable/img_bar_video"
         android:text="视频介绍"/>
 </LinearLayout>

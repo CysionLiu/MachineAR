@@ -12,9 +12,9 @@ android {
     signingConfigs {
         keystore {
             storeFile file('./key/machinear.keystore')
-            storePassword 'mart'
+            storePassword 'mart123'
             keyAlias 'machinear'
-            keyPassword 'mart'
+            keyPassword 'mart123'
         }
     }
 
