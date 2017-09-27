@@ -184,17 +184,17 @@ public class Provider {
         BottomBean bean2 = new BottomBean();
         bean2.setType(Constant.VOICE_GUIDE);//语音
         bean2.setCanClick(true);
-        bean2.setContent("http://ihygg.com/qxsxarupoos/audio/qxsx05audio.mp3");
+        bean2.setContent("http://ihygg.com/qxsxarupoos/audio/qxsx06audio.mp3");
         BottomBean bean3 = new BottomBean();
         bean3.setType(Constant.WEB_GUIDE);//数学知识
         bean3.setCanClick(true);
         bean3.setTitle("数学知识");
-        bean3.setTargetUrl("http://ihygg.com/qxsxarupoos/qxsx05doc01.html");
+        bean3.setTargetUrl("http://ihygg.com/qxsxarupoos/qxsx06doc01.html");
         BottomBean bean4 = new BottomBean();
         bean4.setType(Constant.WEB_GUIDE);//视频介绍
         bean4.setCanClick(true);
         bean4.setTitle("视频介绍");
-        bean4.setTargetUrl("http://ihygg.com/qxsxarupoos/qxsx05video01.html");
+        bean4.setTargetUrl("http://ihygg.com/qxsxarupoos/qxsx06video01.html");
         lists.add(bean1);
         lists.add(bean2);
         lists.add(bean3);
