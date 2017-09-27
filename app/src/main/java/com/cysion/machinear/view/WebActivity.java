@@ -71,8 +71,8 @@ public class WebActivity extends Activity {
     @Override
     protected void onDestroy() {
         mWebView.destroy();
-        mWebView.clearCache(true);
-        mWebView.clearHistory();
+//        mWebView.clearCache(true);
+//        mWebView.clearHistory();
         super.onDestroy();
     }
 }
