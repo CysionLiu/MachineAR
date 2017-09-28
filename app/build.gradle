@@ -8,6 +8,8 @@ android {
         applicationId "com.cysion.machinear"
         minSdkVersion 18
         targetSdkVersion 22
+        versionCode 3
+        versionName "1.2"
     }
     signingConfigs {
         keystore {
