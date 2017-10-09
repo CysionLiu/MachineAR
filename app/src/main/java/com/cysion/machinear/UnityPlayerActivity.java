@@ -172,7 +172,7 @@ public class UnityPlayerActivity extends Activity {
                 case Constant.LOST_TARGET:
                     targetName = (String) msg.obj;
                     objIsShowing = false;
-                    changeModelShowLayout(0);
+//                    changeModelShowLayout(0);
                     break;
             }
         }
@@ -208,9 +208,10 @@ public class UnityPlayerActivity extends Activity {
         mBottomBar.setOnBottomBarClickListener(new ImgBottomBar.OnBottomBarClickListener() {
             @Override
             public void onIconClicked(View aView, BottomBar.Queue aPosition) {
-                if (TextUtils.isEmpty(targetName)) {
-                    return;
-                }
+                Log.d("flag--","onIconClicked(UnityPlayerActivity.java:211)-->>"+targetName);
+//                if (TextUtils.isEmpty(targetName)) {
+//                    return;
+//                }
                 BottomBean temp = null;
                 switch (aPosition) {
                     case FIRST:
